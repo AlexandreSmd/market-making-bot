@@ -16,9 +16,9 @@ export interface MarketMakerConfig {
 
 // Default configuration values (symbol must be provided)
 export const DEFAULT_CONFIG: Omit<MarketMakerConfig, 'symbol'> = {
-  spreadBps: 8,
+  spreadBps: 0.9,
   takeProfitBps: 0.1,
-  orderSizeUsd: 3000,
+  orderSizeUsd: 35,
   closeThresholdUsd: 10,
   warmupSeconds: 10,
   updateThrottleMs: 100,

@@ -2,8 +2,6 @@
 
 A simple market maker bot for [01 Exchange](https://01.xyz). Be the liquidity you wish to see in the market.
 
-Thanks to [@c1ted](https://github.com/c1ted).
-
 ![Market Maker](docs/mm.gif)
 
 ## Requirements
